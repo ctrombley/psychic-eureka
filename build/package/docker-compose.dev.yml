@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  psychic-eureka:
+    build:
+      context: .
+    image: ctrombley/psychic-eureka
+    ports:
+      - 8080:8080
