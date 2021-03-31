@@ -1,2 +1,0 @@
-a80b1da0b8dd5f8833c8602be5dbc4b2d5e86aadc78f0912fa46f3f724324beb  psychic_eureka_v0.0.0-next_Darwin_x86_64.tar.gz
-fb99e4bac7d56dbe8780dbb37ec1038edba1e383af6f6cac6128768c82f455fd  psychic_eureka_v0.0.0-next_Linux_x86_64.tar.gz

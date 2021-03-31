@@ -1,4 +1,4 @@
-# psychic-eureka
+# product-location-service
 
 Project description goes here
 

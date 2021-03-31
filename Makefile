@@ -1,8 +1,5 @@
 all: clean snapshot
 
-build:
-	go build -o cmd/psychic-eureka/main.go
-
 clean:
 	@rm -rf dist
 
@@ -15,4 +12,4 @@ publish:
 run-docker: snapshot
 	docker-compose -f build/package/docker-compose.dev.yml up
 
-.PHONY: all build compile
+.PHONY: all build

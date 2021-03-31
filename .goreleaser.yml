@@ -1,11 +1,11 @@
-project_name: psychic_eureka
+project_name: product-location-service
 before:
   hooks:
     - go mod download
 builds:
   - id: psychic-eureka
-    dir: ./cmd/psychic-eureka
-    binary: psychic-eureka
+    dir: ./cmd/product-location-service
+    binary: product-location-service
     env:
       - CGO_ENABLED=0
     goos:
@@ -30,11 +30,3 @@ changelog:
     exclude:
       - "^docs:"
       - "^test:"
-dockers:
-  - dockerfile: build/package/Dockerfile
-    image_templates:
-      - "ctrombley/psychic-eureka:{{ .Tag }}"
-      - "ctrombley/psychic-eureka:v{{ .Major }}.{{ .Minor }}"
-      - "ctrombley/psychic-eureka:latest"
-    ids:
-      - psychic-eureka
