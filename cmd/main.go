@@ -1,12 +1,13 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
 	"github.com/ctrombley/psychic-eureka/internal/service"
+
+	"github.com/gin-gonic/gin"
 )
 
 func main() {
 	r := gin.Default()
-	service.initRoutes(r)
+	service.InitRoutes(r)
 	r.Run() // listen and serve on 0.0.0.0:8080
 }

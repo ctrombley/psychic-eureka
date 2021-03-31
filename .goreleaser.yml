@@ -4,7 +4,7 @@ before:
     - go mod download
 builds:
   - id: psychic-eureka
-    dir: ./cmd/product-location-service
+    dir: ./cmd
     binary: product-location-service
     env:
       - CGO_ENABLED=0
